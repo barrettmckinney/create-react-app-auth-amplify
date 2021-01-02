@@ -23,5 +23,13 @@ class App extends Component {
     );
   }
 }
+const App = () => (
+  <div className="app">
+    <Router>
 
+      <NavBar />
+
+    </Router>
+  </div>
+);
 export default withAuthenticator(App, true);
