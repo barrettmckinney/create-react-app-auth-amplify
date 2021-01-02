@@ -5,6 +5,7 @@ import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
 import aws_exports from './aws-exports';
 
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import NavBar from "./NavBar";
 
 Amplify.configure(aws_exports);
