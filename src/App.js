@@ -20,17 +20,14 @@ class App extends Component {
             Welcome! Manage your virtual desktops
           </p>
         </header>
-      </div>
-    );
-  }
-}
-const App = () => (
-  <div className="app">
-    <Router>
+          <Router>
 
       <NavBar />
 
     </Router>
-  </div>
-);
+      </div>
+    );
+  }
+}
+
 export default withAuthenticator(App, true);
