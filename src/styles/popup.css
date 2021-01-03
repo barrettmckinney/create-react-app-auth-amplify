@@ -1,0 +1,41 @@
+.popup-icon-container {
+  padding: 2vh;
+}
+
+.loading-popup, .result-popup-success {
+  border: solid 10px var(--aws-green);
+}
+
+.delete-popup, .result-popup-failure {
+  border: solid 10px var(--aws-red);
+}
+
+.delete-input {
+  width: 80%;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.delete-popup-button {
+  padding: 15px 10px;
+  margin: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.cancel-button {
+  background-color: var(--light-grey);
+}
+
+.cancel-button:hover, .confirm-button {
+  background-color: var(--aws-light-red);
+}
+
+.confirm-button:hover:enabled {
+  background-color: var(--aws-red);
+  color: var(--font-color);
+}

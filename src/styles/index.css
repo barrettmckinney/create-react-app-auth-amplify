@@ -1,0 +1,106 @@
+:root {
+  /* color scheme */
+  --squid-ink: #232f3e;
+  --lighter-squid-ink: #3d536e;
+  --white: #ffffff;
+  --light-grey: #f2f4f6;
+  --aws-light-green: #76eacc;
+  --aws-green: #16bf9f;
+  --aws-dark-green: #067f68;
+
+  --aws-light-yellow: #fee385;
+  --aws-yellow: #fdc500;
+
+  --aws-light-red: #FFa7a7;
+  --aws-red: #FF5252;
+
+  --aws-smile: #ff9900;
+
+  /*  color system */
+  --background-color: var(--aws-green);
+  --secondary-background-color: var(--white);
+
+  --accent-color: var(--aws-green);
+  --border-color: var(--aws-dark-green);
+  --disabled-color: #87c7bb;
+
+  --font-color: var(--white);
+  --secondary-font-color: var(--squid-ink);
+  --debug-color: var(--aws-light-yellow);
+
+  --amplify-primary-color: var(--aws-dark-green);
+  --amplify-primary-shade: var(--aws-dark-green);
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: local("Amazon Ember"),
+    url(../fonts/AmazonEmber_Rg.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: local("Amazon Ember Bold"),
+    url(../fonts/AmazonEmber_Bd.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: local("Amazon Ember Light"),
+    url(../fonts/AmazonEmber_Lt.ttf) format("truetype");
+  font-weight: lighter;
+}
+
+* {
+  font-family: "Amazon Ember";
+  margin: 0;
+  padding: 0;
+}
+
+/* h-tag system */
+
+h1 {
+  /* Main Page */
+  font-size: 48px;
+  line-height: 49px;
+}
+
+h2 {
+  /* Section Headers */
+  font-size: 36px;
+  line-height: 37px;
+}
+
+h3 {
+  /* Tile Names and Subsection Headers */
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+h4 {
+  /* Tile Taglines */
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+button {
+  outline: none;
+}
+
+.icon {
+  height: auto;
+  width: 64px;
+}
+
+/* section styling */
+.section {
+  height: 50vh;
+}

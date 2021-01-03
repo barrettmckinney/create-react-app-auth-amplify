@@ -1,0 +1,24 @@
+.console {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-font-color);
+  height: auto;
+}
+.console-dashboard-section {
+  height: 100%;
+}
+
+.console-dashboard {
+  margin: 15px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.sign-out-section {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  height: auto;
+}

@@ -1,0 +1,134 @@
+.dashboard-section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%
+}
+
+.dashboard-left-column,
+.dashboard-right-column {
+  display: flex;
+  align-items: center;
+  border: solid 10px var(--aws-green);
+}
+
+.dashboard-left-column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard-left-column > .dashboard-input-container {
+  border-bottom: solid 2px var(--aws-green);
+}
+
+.dashboard-left-column > .dashboard-left-bottom {
+  border: none;
+}
+
+.dashboard-right-column > .dashboard-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-input-container {
+  text-align: center;
+  font-size: 25px;
+  line-height: 26px;
+  width: 100%;
+}
+
+.dashboard-graph {
+  height: auto;
+  width: 35vw;
+}
+
+.dashboard-input-label {
+  display: inline-block;
+  font-weight: bold;
+  padding: 30px 15px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.dashboard-input-value {
+  display: inline-block;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 30px 15px;
+}
+
+.dashboard-input-value-big {
+  font-size: calc(25px + 1em);
+  line-height: calc(26px + 1em);
+}
+
+.dashboard-status > .dashboard-input-value {
+  font-weight: bold;
+}
+
+.status-start > .dashboard-input-value {
+  color: var(--aws-green);
+}
+
+.status-stop > .dashboard-input-value {
+  color: var(--aws-yellow);
+}
+
+.dashboard-icon {
+  margin-top: min(5vh, 2vw);
+  padding: 10px;
+  width: 64px;
+  height: auto;
+}
+
+.dashboard-button-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grey);
+}
+
+.dashboard-button {
+  margin: 5vw;
+  color: var(--font-color);
+  padding: 20px 15px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.start-button {
+  background-color: var(--aws-green);
+}
+
+.start-button:hover:enabled {
+  background-color: var(--aws-light-green);
+}
+
+.stop-button {
+  background-color: var(--aws-yellow);
+}
+
+.stop-button:hover:enabled {
+  background-color: var(--aws-light-yellow);
+}
+
+.delete-button {
+  background-color: var(--aws-red);
+}
+
+.delete-button:hover {
+  background-color: var(--aws-light-red);
+}
+
+.email-dashboard {
+  height: min(75vh, 50vw);
+  width: auto;
+}

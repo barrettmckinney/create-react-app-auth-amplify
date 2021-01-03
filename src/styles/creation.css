@@ -1,0 +1,37 @@
+.creation-section-header {
+  padding: 20px 0;
+}
+
+.creation-section-description {
+  margin: 10px 0 30px;
+}
+
+.creation-section-input {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.creation-section-list {
+  margin-left: 50px
+}
+
+.creation-section-input-invalid {
+  border-color: var(--aws-red);
+}
+
+.inputs-container {
+  display: flex;
+  border-top: solid 1px var(--squid-ink);
+}
+
+.input-label {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.input-value {
+  font-style: italic;
+  padding: 20px;
+}

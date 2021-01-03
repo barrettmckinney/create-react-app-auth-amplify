@@ -1,0 +1,20 @@
+.first {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.second {
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+}
+
+.third {
+    background-color: var(--aws-light-green);
+    color: var(--squid-ink);
+
+}
+
+.fourth {
+    background-color: var(--squid-ink);
+    color: var(--font-color);
+}

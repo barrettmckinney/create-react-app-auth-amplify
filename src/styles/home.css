@@ -1,0 +1,48 @@
+.home {
+  color: var(--font-color);
+  height: 100%;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-logo-container {
+  height: 300px;
+  width: 300px;
+  margin: 30px 0;
+}
+
+.home-logo {
+  height: 300px;
+  width: auto;
+  opacity: 0.75;
+  transition: 0.1s opacity;
+}
+
+.home-logo:hover {
+  opacity: 1;
+  transition: 0.1s opacity;
+}
+
+.home-first-section {
+  height: 60vh;
+}
+
+.home-second-section {
+  height: 30vh;
+}
+
+.home-section-color:nth-child(odd) {
+  background-color: var(--background-color);
+  box-shadow: inset 0 0 30px -3px var(--aws-dark-green);
+}
+
+.home-section-color:nth-child(even) {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-font-color);
+}
