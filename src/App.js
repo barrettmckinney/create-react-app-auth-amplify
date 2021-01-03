@@ -18,7 +18,7 @@ class App extends Component {
             Welcome! Manage your virtual desktops
               <div>
                <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://awsfirework.s3-us-west-2.amazonaws.com/CreateNewWorkSpace.yaml&stackName=New-Workspace">
-                  <img alt="Create New Workspaces" src="/images/workspaces.png">
+                  <img alt="Create New Workspaces" src="/images/workspaces.png"/>
               </a>
             </div>
           </p>
