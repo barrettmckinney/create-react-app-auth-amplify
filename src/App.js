@@ -16,11 +16,11 @@ class App extends Component {
         <header className="App-header">
           <p>
             Welcome! Manage your virtual desktops
+              <div>
+                Just testing
+              </div>
           </p>
         </header>
-        <div>
-          Just testing
-        </div>
       </div>
     );
   }
