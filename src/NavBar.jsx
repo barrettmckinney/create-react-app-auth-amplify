@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import Logo from "./images/logo.png";
-import "./assets/styles/navbar.css";
+import "./styles/navbar.css";
 
 const NavItem = (props) => {
   const { to, children } = props;
