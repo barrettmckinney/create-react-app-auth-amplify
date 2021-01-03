@@ -17,8 +17,10 @@ class App extends Component {
           <p>
             Welcome! Manage your virtual desktops
               <div>
-                Just testing
-              </div>
+                <button class="button" onClick="window.open('https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://awsfirework.s3-us-west-2.amazonaws.com/CreateNewWorkSpace.yaml&stackName=New-Workspace');">
+                  <span class="icon">New Workspace</span>
+              </button>   
+            </div>
           </p>
         </header>
       </div>
