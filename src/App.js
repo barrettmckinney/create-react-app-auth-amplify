@@ -16,7 +16,7 @@ class App extends Component {
         <header className="App-header">
           <p>
               <div>
-               <img src = "src/images/fireworkmockup.jpg"/>
+               <img src = "https://awsfirework.s3-us-west-2.amazonaws.com/fireworkmockup.jpg"/>
             </div>
           </p>
         </header>
