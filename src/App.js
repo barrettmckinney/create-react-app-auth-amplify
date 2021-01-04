@@ -15,11 +15,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-            Welcome! Manage your virtual desktops
               <div>
-               <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://awsfirework.s3-us-west-2.amazonaws.com/CreateNewWorkSpace.yaml&stackName=New-Workspace">
-                  <img alt="Create New Workspaces" src="https://images-na.ssl-images-amazon.com/images/I/512NmkgumLL.png"/>
-              </a>
+               <img src = "src/images/fireworkmockup.jpg"/>
             </div>
           </p>
         </header>
